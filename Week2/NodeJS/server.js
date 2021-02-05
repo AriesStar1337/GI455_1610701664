@@ -12,7 +12,6 @@ websocketServer.on("connection", (ws, rq)=>{
 
     wsList.push(ws);
 
-
     console.log("Client " + UserId(ws) + " has connected!");
 
     ws.on("message", (data)=>{

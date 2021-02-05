@@ -58,35 +58,35 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11268}
+      Script: {instanceID: 11246}
     - Class: 114
-      Script: {instanceID: 11558}
+      Script: {instanceID: 11270}
     - Class: 114
-      Script: {instanceID: 11562}
+      Script: {instanceID: 11564}
     - Class: 114
-      Script: {instanceID: 11612}
+      Script: {instanceID: 11614}
     - Class: 114
-      Script: {instanceID: 11786}
+      Script: {instanceID: 11788}
     - Class: 114
-      Script: {instanceID: 11806}
+      Script: {instanceID: 11808}
     - Class: 114
-      Script: {instanceID: 12106}
+      Script: {instanceID: 12108}
     - Class: 114
-      Script: {instanceID: 12280}
+      Script: {instanceID: 12282}
     - Class: 114
-      Script: {instanceID: 12630}
+      Script: {instanceID: 12632}
     - Class: 114
-      Script: {instanceID: 12984}
+      Script: {instanceID: 12986}
     - Class: 114
-      Script: {instanceID: 13128}
+      Script: {instanceID: 13130}
     - Class: 114
-      Script: {instanceID: 13274}
+      Script: {instanceID: 13276}
     - Class: 114
-      Script: {instanceID: 13748}
+      Script: {instanceID: 13542}
     - Class: 114
-      Script: {instanceID: 14360}
+      Script: {instanceID: 13752}
     - Class: 114
-      Script: {instanceID: 16644}
+      Script: {instanceID: 14364}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -121,25 +121,25 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11268}
+      Script: {instanceID: 11246}
     - Class: 114
-      Script: {instanceID: 11540}
+      Script: {instanceID: 11270}
     - Class: 114
-      Script: {instanceID: 11558}
+      Script: {instanceID: 11474}
     - Class: 114
-      Script: {instanceID: 11612}
+      Script: {instanceID: 11544}
     - Class: 114
-      Script: {instanceID: 12280}
+      Script: {instanceID: 11614}
     - Class: 114
-      Script: {instanceID: 12984}
+      Script: {instanceID: 12282}
     - Class: 114
-      Script: {instanceID: 13274}
+      Script: {instanceID: 12986}
     - Class: 114
-      Script: {instanceID: 13748}
+      Script: {instanceID: 13276}
     - Class: 114
-      Script: {instanceID: 14360}
+      Script: {instanceID: 13752}
     - Class: 114
-      Script: {instanceID: 16372}
+      Script: {instanceID: 14364}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -157,6 +157,12 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: aeb62f729c52c814dec86c47dcac1471
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
   - hash:
       serializedVersion: 2
       Hash: 4bc4346a71a8df53a6b106f68ef3a190
@@ -195,6 +201,12 @@ ScriptsOnlyBuild:
     className: PlayerQuitHandler
   - hash:
       serializedVersion: 2
+      Hash: 88c69e27b552365329a676ef3a9e85c6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RoomConnection
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -211,12 +223,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: WebSocketConnection
-  - hash:
-      serializedVersion: 2
-      Hash: aeb62f729c52c814dec86c47dcac1471
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
   - hash:
       serializedVersion: 2
       Hash: 499fd23433e68e265d153aa6b95d0047
@@ -519,6 +525,12 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
+      Hash: ef6fe67f53cb99dbd0c25bf177317b9a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MessageManager
+  - hash:
+      serializedVersion: 2
       Hash: 6939772cb3ce775a8e8d99f332534491
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -649,18 +661,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 88c69e27b552365329a676ef3a9e85c6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: RoomConnection
-  - hash:
-      serializedVersion: 2
-      Hash: ef6fe67f53cb99dbd0c25bf177317b9a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MessageManager
   platform: 5
   scenePathNames:
   - Assets/Scenes/Login.unity

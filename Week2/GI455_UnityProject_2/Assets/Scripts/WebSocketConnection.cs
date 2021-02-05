@@ -6,7 +6,6 @@ public class WebSocketConnection : MonoBehaviour
 {
     public string ipAddress;
     public string userName;
-    private int userId;
     public WebSocket websocket;
     void Awake()
     {
@@ -18,6 +17,7 @@ public class WebSocketConnection : MonoBehaviour
         websocket = new WebSocket(ipAddress);
         websocket.OnMessage += OnMessage;
         websocket.Connect();
+        websocket.Send("[" + userName + "] has joined the chat.");
     }
 
     void OnDestroy()
@@ -26,6 +26,12 @@ public class WebSocketConnection : MonoBehaviour
         {
             websocket.Close();
         }
+    }
+
+    void OnApplicationQuit()
+    {
+        if(ipAddress != "")
+            websocket.Send("[" + userName + "] has left the chat.");
     }
 
     public void OnMessage(object sender, MessageEventArgs messageEventArgs)
