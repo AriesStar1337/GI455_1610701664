@@ -56,35 +56,35 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11288}
+      Script: {instanceID: 11268}
     - Class: 114
-      Script: {instanceID: 11492}
+      Script: {instanceID: 11472}
     - Class: 114
-      Script: {instanceID: 11562}
+      Script: {instanceID: 11542}
     - Class: 114
-      Script: {instanceID: 11580}
+      Script: {instanceID: 11560}
     - Class: 114
-      Script: {instanceID: 11584}
+      Script: {instanceID: 11564}
     - Class: 114
-      Script: {instanceID: 11634}
+      Script: {instanceID: 11614}
     - Class: 114
-      Script: {instanceID: 11808}
+      Script: {instanceID: 11788}
     - Class: 114
-      Script: {instanceID: 12128}
+      Script: {instanceID: 12108}
     - Class: 114
-      Script: {instanceID: 12302}
+      Script: {instanceID: 12282}
     - Class: 114
-      Script: {instanceID: 12652}
+      Script: {instanceID: 12632}
     - Class: 114
-      Script: {instanceID: 13004}
+      Script: {instanceID: 12986}
     - Class: 114
-      Script: {instanceID: 13148}
+      Script: {instanceID: 13130}
     - Class: 114
-      Script: {instanceID: 13294}
+      Script: {instanceID: 13276}
     - Class: 114
-      Script: {instanceID: 13768}
+      Script: {instanceID: 13750}
     - Class: 114
-      Script: {instanceID: 14380}
+      Script: {instanceID: 14362}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -603,4 +603,4 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Scenes/Lobby.unity
-  playerPath: C:/Users/AriesStar/Desktop/Year 3 Sem 2/Work/GI455/GI455_1610701664/Week4/Build/GI455_UnityProject_2.exe
+  playerPath: C:/Users/AriesStar/Desktop/Year 3 Sem 2/Work/GI455/GI455_1610701664/Week4/Build/GI455_UnityProject_4.exe

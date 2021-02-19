@@ -109,8 +109,6 @@ wss.on("connection", (ws)=>{
                     break;
                 }
             }
-
-            console.log("client request JoinRoom");
             //========================================
         }
         else if(toJsonObj.eventName == "LeaveRoom")//LeaveRoom
